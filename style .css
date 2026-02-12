@@ -11,3 +11,34 @@ body {
     background-color: var(--color-1);
     font-family: funnel+display;
 }
+
+
+
+
+
+
+nav{
+    background-color: var(--color-1);
+    text-align: right;
+}
+nav a{ 
+    color:var(--color-3);
+    text-decoration:none;
+    padding: 16px;
+    display: inline-block;
+}
+
+nav a:hover{ 
+    background-color:violet
+   
+}
+
+.contact-link {
+ background-color: cornflowerblue;
+ border-radius: 32px;
+ color: var(--color-1)
+}
+
+.contact-link:hover{
+    color: violet;
+}
