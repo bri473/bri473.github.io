@@ -20,18 +20,24 @@ body {
 nav{
     background-color: var(--color-1);
     text-align: right;
+    display: flex;
+    justify-content: space-between;
 }
 nav a{ 
     color:var(--color-3);
     text-decoration:none;
     padding: 16px;
-    display: inline-block;
+    text-align: right;
+    display:  inline-block ;
+   
 }
+
 
 nav a:hover{ 
     background-color:violet
-   
+    
 }
+
 
 .contact-link {
  background-color: cornflowerblue;
