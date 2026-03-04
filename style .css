@@ -48,3 +48,28 @@ nav a:hover{
 .contact-link:hover{
     color: violet;
 }
+
+:hover{
+    background-color:rgb(113, 201, 231);
+    font-size: 18px;
+  }
+
+
+a:active {
+    background-color: plum;
+  }
+
+  a:visited {
+    color: pink;
+  }
+
+ p:nth-child{
+    background-color:pink;
+ }
+
+ div:nth-child{
+    background-color:lavenderblush ;
+ }
+ li:nth-child{
+    background-color: rgb(111, 141, 230);
+ }
