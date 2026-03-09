@@ -34,9 +34,35 @@
         </div>
         
         <div class="contact-box">
-          <h3>Contact Info</h3>
-          <p></p>
-          <p></p>
+          <h3>Contact form</h3>
+          <form 
+          action="https://form-to-email.steamc.worker.dev/"
+          method="post"
+          >
+          <input type="text" name="send-to" value="bcampbell@brooklynsteamcenter.org" hidden>
+
+           <label> Name:</label>
+           <input type="text" placeholder="Name" name="full_name">
+           <br>
+
+           <label>email:</label>
+           <input type="email" placeholder="melish2@example.com" name="email_address" >
+             
+           <br>
+           <label>comments:</label><br>
+           <textarea placeholder="website looking good "  name="comments"></textarea>
+
+          
+           <input type="reset">
+
+           <button type="submit" >
+            contact me.
+           </button>
+
+
+
+          </form>
+          
         </div>
       </div>
     <script src="https://code.iconify.design/iconify-icon/3.0.0/iconify-icon.min.js"></script>
