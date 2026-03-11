@@ -56,11 +56,11 @@ nav a:hover{
 
 
 a:active {
-    background-color: plum;
+    background-color: cornflowerblue;
   }
 
   a:visited {
-    color: pink;
+    color:cornflowerblue;
   }
 
  p:nth-child{
@@ -68,7 +68,7 @@ a:active {
  }
 
  div:nth-child{
-    background-color:lavenderblush ;
+    background-color:cornflowerblue;
  }
  li:nth-child{
     background-color: rgb(111, 141, 230);
@@ -101,4 +101,25 @@ a:active {
     box-sizing: border-box;
     
   }
+
+  @media screen and (max-width: 480px) { 
+    
+    /* Mobile Devices */ 
+    .contact-wrapper {
+      flex-direction: column-reverse;
+    }
+  
+  } 
+    
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    /* Tablet Devices */
+}
+
+
+@media screen and (max-width: 769px) {
+    /* Laptop/Desktop Devices */
+}
+
+
   
